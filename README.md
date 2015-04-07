@@ -21,14 +21,13 @@ LTSpice IV (http://www.linear.com/designtools/software/ - Free software)
 
 **Running the code:**  
 1. Add LTspice executable to the system path (first time only)  
-   a. Find LTspice executable (scad3.exe) in Windows Explorer  
-      i. By default this is C:\Program Files (x86)\LTC\LTspiceIV\scad3.exe  
-   b. Add the path of scad3.exe to the system path  
-      i. Click Start -> Control Panel -> System -> Advanced system settings -> Environment Variables...  
-      ii. Under System variables, find Path in the list box  
-      iii. Click on Path, then click “Edit...”  
-      iv. Append the path of scad3.exe to the Environment value string  
-      (For example, by default append “;C:\Program Files (x86)\LTC\LTspiceIV” to the end of the Variable value string. Do not delete any of the current values.)  
+ 1. Find LTspice executable (scad3.exe) in Windows Explorer  
+  1. By default this is C:\Program Files (x86)\LTC\LTspiceIV\scad3.exe  
+ 2. Add the path of scad3.exe to the system path  
+  1. Click Start -> Control Panel -> System -> Advanced system settings -> Environment Variables...  
+  2. Under System variables, find Path in the list box  
+  3. Click on Path, then click “Edit...”  
+  4. Append the path of scad3.exe to the Environment value string  (For example, by default append “;C:\Program Files (x86)\LTC\LTspiceIV” to the end of the Variable value string. Do not delete any of the current values.)  
 2. Adjust the simulation settings in the user_inputs.m file and save. Under normal operation, there should be no need to make changes to any other files  
 3. Run the charge_pump_analysis.m script  
 
